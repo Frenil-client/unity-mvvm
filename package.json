@@ -1,0 +1,26 @@
+{
+  "name": "com.frenil.mvvm",
+  "version": "1.0.0",
+  "displayName": "UGUI MVVM Framework",
+  "description": "Unity UGUI 환경을 위한 경량 MVVM 프레임워크. 외부 라이브러리 없이 Observable<T> 기반 데이터 바인딩 제공. ViewModel 은 순수 C# 클래스라 단위 테스트 가능.",
+  "unity": "2021.3",
+  "keywords": [
+    "ui",
+    "mvvm",
+    "ugui",
+    "databinding",
+    "observable"
+  ],
+  "author": {
+    "name": "정휘현 (Frenil)",
+    "email": "silsen@naver.com",
+    "url": "https://github.com/Frenil-client"
+  },
+  "samples": [
+    {
+      "displayName": "Login Sample",
+      "description": "ID/PW 입력 상태에 반응하는 로그인 화면 예시",
+      "path": "Example/LoginSample"
+    }
+  ]
+}
