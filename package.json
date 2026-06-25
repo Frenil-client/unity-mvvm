@@ -20,7 +20,7 @@
     {
       "displayName": "Login Sample",
       "description": "ID/PW 입력 상태에 반응하는 로그인 화면 예시",
-      "path": "Example/LoginSample"
+      "path": "Samples~/LoginSample"
     }
   ]
 }

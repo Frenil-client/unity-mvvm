@@ -129,6 +129,32 @@ View에서 직접 구독하는 방식이 컨텍스트를 한 곳에 유지하면
 
 ---
 
+## 설치
+
+### UPM (Package Manager) — 권장
+`Window ▸ Package Manager ▸ + ▸ Add package from git URL` 에 입력:
+
+```
+https://github.com/Frenil-client/unity-mvvm.git
+```
+
+또는 `Packages/manifest.json` 에 직접 추가:
+
+```json
+"com.frenil.mvvm": "https://github.com/Frenil-client/unity-mvvm.git"
+```
+
+### 드롭인
+`Runtime/` 폴더를 프로젝트 `Assets/` 아래에 복사합니다. (코어는 순수 C# — 외부 의존 없음)
+
+### 샘플
+Package Manager에서 이 패키지를 선택 → **Samples ▸ Import** (로그인 화면 예시, 원본: `Samples~/LoginSample`).
+
+## 테스트
+
+`Window ▸ General ▸ Test Runner ▸ EditMode ▸ Run All`
+(`com.unity.test-framework` 필요 · EditMode 테스트 7종 — Observable / ViewModelBase)
+
 ## 환경
 
 - Unity 2021.3 LTS 이상
